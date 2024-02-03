@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 660px;
+  margin: 50px auto;
+  font-size: 0;
+}
+
+.card {
+  display: inline-block;
+  background: #E0E0E0;
+  height: 226px;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card .minicard {
+  background-color:  #C4C4C4;
+  width: 130px;
+  height: 130px;
+  margin: 0 36px;
+  border-radius: 10px;
+}
+
+.card .texth2 {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.card .texth4 {
+  font-family: Roboto, sans-serif;
+  line-height: 18px;
+}
